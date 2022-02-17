@@ -171,11 +171,22 @@ p:last-child {
 }
 /* Main Work */
 .main-work-title {
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   color: var(--secondary-text-color);
+}
+.main-work-list {
+  display: flex;
+}
+.main-work-item {
+  margin-right: 30px;
+  margin-bottom: 188px;
+}
+.main-work-item:last-child {
+  margin-right: 0;
 }
 /* Main Team */
 .main-team-title {
