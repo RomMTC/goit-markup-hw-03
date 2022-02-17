@@ -18,8 +18,32 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+p:last-child {
+  margin-bottom: 0;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ececec;
+}
 /* Header */
+.header-container {
+  display: flex;
+  align-items: center;
+}
 /* lOGO */
 .logo {
   color: #2196f3;
@@ -27,13 +51,27 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-right: 93px;
 }
 .logo-primary {
   color: #000000;
 }
 /*Header Site navigation */
 .list {
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   list-style: none;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-list-item {
+  margin-right: 50px;
+}
+.nav-list-item:last-child {
+  margin-right: 0px;
 }
 .link {
   text-decoration: none;
@@ -51,6 +89,10 @@ body {
   /* text-decoration: underline; */ /* Добавляем подчеркивание */
 }
 /* Header connection */
+.header-mail {
+  margin-left: auto;
+  margin-right: 50px;
+}
 .header-mail,
 .header-contact {
   color: var(--primary-text-color);
