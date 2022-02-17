@@ -282,6 +282,7 @@ p:last-child {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  background-color: #f5f4fa;
   color: var(--secondary-text-color);
   cursor: pointer;
   border: none;
@@ -312,9 +313,26 @@ p:last-child {
 }
 .portfolio-item {
   margin-right: 8px;
+  margin-bottom: 34px;
 }
 /* main portfolio projects */
+.portfolio-projects-list {
+  margin-bottom: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.portfolio-projects-item {
+  width: 370px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.portfolio-projects-img {
+  margin-bottom: 20px;
+}
 .portfolio-projects-title {
+  margin: 0 24px 4px 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -322,6 +340,8 @@ p:last-child {
   color: var(--secondary-text-color);
 }
 .portfolio-projects-descr {
+  margin-left: 24px;
+  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.87;
 }
