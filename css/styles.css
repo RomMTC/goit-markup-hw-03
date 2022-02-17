@@ -284,9 +284,11 @@ p:last-child {
   text-align: center;
   color: var(--secondary-text-color);
   cursor: pointer;
+  border: none;
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  border-radius: 4px;
   background-color: var(--secondary-accent-color);
   color: #ffffff;
 }
@@ -303,6 +305,15 @@ p:last-child {
   clip-path: inset(50%);
   margin: -1px;
 }
+.portfolio-list {
+  display: flex;
+  margin-top: 78px;
+  justify-content: center;
+}
+.portfolio-item {
+  margin-right: 8px;
+}
+/* main portfolio projects */
 .portfolio-projects-title {
   font-weight: 700;
   font-size: 18px;
