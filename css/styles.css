@@ -113,6 +113,7 @@ p:last-child {
 .main-hero {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-bottom: 79px;
   background-color: #2f303a;
   align-items: center;
   text-align: center;
@@ -144,7 +145,19 @@ p:last-child {
   background-color: var(--secondary-accent-color);
 }
 /* Main Quality */
+.main-quality-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+.main-quality-item {
+  width: 270px;
+  margin-right: 30px;
+}
+.main-quality-item:last-child {
+  margin-right: 0;
+}
 .main-quality-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
