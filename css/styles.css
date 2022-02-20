@@ -137,8 +137,6 @@ p:last-child {
   padding: 10px 32px 10px 32px;
   background-color: var(--accent-color);
   color: #ffffff;
-  width: 200px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -218,7 +216,6 @@ p:last-child {
 }
 .main-team-item {
   width: 270px;
-  height: 368px;
   background-color: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -232,9 +229,9 @@ p:last-child {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-/* .main-team-img {
+.main-team-img {
   margin-bottom: 30px;
-} */
+}
 .main-team-names {
   margin-bottom: 10px;
   font-weight: 500;
@@ -330,9 +327,12 @@ p:last-child {
   display: flex;
   justify-content: center;
 }
+.portfolio-item-btn {
+
+  margin-bottom: 50px; */
+}
 .portfolio-item {
-  margin-right: 8px;
-  margin-bottom: 50px;
+    margin-right: 8px;
 }
 .portfolio-item:last-child {
   margin-right: 0;
@@ -357,7 +357,7 @@ p:last-child {
   margin-bottom: 0;
 }
 .portfolio-projects-img {
-  margin-bottom: 20px;
+display: block;
 }
 .portfolio-cards {
   padding: 20px 24px 20px 24px;
