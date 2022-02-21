@@ -326,12 +326,10 @@ p:last-child {
 .portfolio-list {
   display: flex;
   justify-content: center;
-}
-.portfolio-item-btn {
-  margin-bottom: 50px; */
+  margin-bottom: 50px;
 }
 .portfolio-item {
-    margin-right: 8px;
+  margin-right: 8px;
 }
 .portfolio-item:last-child {
   margin-right: 0;
@@ -356,7 +354,7 @@ p:last-child {
   margin-bottom: 0;
 }
 .portfolio-projects-img {
-display: block;
+  display: block;
 }
 .portfolio-cards {
   padding: 20px 24px 20px 24px;
